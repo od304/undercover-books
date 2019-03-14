@@ -6,23 +6,16 @@ body {
   background-color: #cccccc;
   background-size: cover;
   background-position: center;
+  padding-top: 5rem;
 }
-div {
-  min-height: 50vh;
-  width: 100vw;
+.Netflix {
+  padding: 3rem 1.5rem;
+  text-align: center;
 }
-div.top {
-  background-color: rgb(0,0,0);
-  color: rgb(255,255,255);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  min-height: 5vh;
-}
+
 div.end {
   position: absolute;
   bottom: 0;
   min-height: 10vh;
-
+  text-align: left;
 }
