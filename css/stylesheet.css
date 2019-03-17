@@ -12,10 +12,13 @@ body {
   padding: 3rem 1.5rem;
   text-align: center;
 }
-
 div.end {
   position: absolute;
   bottom: 0;
   min-height: 10vh;
   text-align: left;
+}
+ul: hover {
+  font-size: 1.2em;
+  transition: 0.6s ease;
 }
