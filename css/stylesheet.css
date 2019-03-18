@@ -1,21 +1,22 @@
 body {
-  color: rgb(65,75,86);
+  color: rgb(255,255,255);
   font-family: georgia;
   margin: 0px;
-  background-image: url("Background book.jpg");
-  background-color: #cccccc;
+  background-color: rgb(0,0,0);
   background-size: cover;
   background-position: center;
   padding-top: 5rem;
 }
 .Netflix {
-  padding: 3rem 1.5rem;
+  padding: 1rem 1.0rem;
   text-align: center;
 }
-
 div.end {
   position: absolute;
   bottom: 0;
   min-height: 10vh;
   text-align: left;
 }
+ul: hover {
+  font-size: 1.2em;
+  transition: 0.6s ease;
