@@ -23,4 +23,8 @@ div.end {
 }
 ul: hover {
   font-size: 1.2em;
-  transition: 0.6s ease;
+  transition: 0.6s ease
+}
+.navbar-default {
+  background-color: rgb(211,211,211);
+}
