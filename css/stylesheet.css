@@ -17,6 +17,10 @@ div.end {
   min-height: 10vh;
   text-align: left;
 }
+.carousel-one {
+  background: rgba(0, 0, 0, 0.4);
+
+}
 ul: hover {
   font-size: 1.2em;
   transition: 0.6s ease;
