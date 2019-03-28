@@ -5,11 +5,10 @@ body {
   background-color: rgb(0,0,0);
   background-size: cover;
   background-position: center;
-  padding-top: 3rem;
+  padding-top: 5rem;
 }
 .jumbotron {
-  padding-top: 2rem;
-  padding-bottom: 0rem;
+  padding: 1.0rem 0.5rem;
   text-align: center;
   background-color: rgb(0,0,0);
 }
@@ -34,25 +33,6 @@ ul: hover {
 .navbar-default {
   background-color: rgb(211,211,211);
 }
-.container {
-  padding: 1.0rem 0rem;
-}
-ol {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-li {
-  text-align: center;
-}
-.pic {
-  height: 100%;
-  min-height: 100px;
-  max-height: 300px;
-  width: auto;
-  padding: 1.0rem 0rem;
-  padding-top: 0rem;
-}
-.caption {
-  padding-top: 0rem
+.row {
+  padding: 1.0rem 0rem
 }
