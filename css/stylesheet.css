@@ -25,6 +25,7 @@ div.end {
 }
 .carousel-one {
   background: rgba(0, 0, 0, 0.4);
+  padding: 0rem 0rem;
 
 }
 ul: hover {
@@ -55,4 +56,10 @@ li {
 }
 .caption {
   padding-top: 0rem
+}
+.checked {
+  color: orange;
+}
+.fa {
+  padding: 0rem 0rem;
 }
