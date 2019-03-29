@@ -10,26 +10,32 @@
   </head>
 
   <body>
+
+    <div class="container-fluid">
+
     <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
       <a class="navbar-brand" href="index.html">Undercover Books</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link" href="crime-and-thrillers.html">Crime & Thrillers <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="crime-and-thrillers.html">Crime & Thrillers</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="sci-fi.html">Sci-Fi</a>
+            <a class="nav-link" href="Sci-fi.html">Sci-Fi <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="Fantasy.html">Fantasy</a>
           </li>
         </ul>
       </div>
-
     </nav>
+  </div>
+  <div class="container-fluid">
+
 
     <div class="Netflix text-center">
       <h1>Crime and Thrillers</h1>
@@ -44,16 +50,16 @@
         <div class="col-sm-4">
           <img class="pic" src="If I Die.jpg" alt="If I Die" title="If I Die Before I Wake">
         </div>
-        <div class="col-sm-5">
+        <div class="text-center col-sm-5">
           <h4>If I Die Before I Wake</h4>
-          <p>
-            "This is a debut to be reckoned with" (The Guardian)
-            Everyone believes Alex is in a coma, unlikely to ever wake up. As his family debate withdrawing life support, he can only listen. But he soon begins to suspect that his accident wasn't really an accident. Even worse, the perpetrator is still out there and Alex is not the only one in danger.
+          <h5>By Emily Koch</h5>
+          <p>"This is a debut to be reckoned with" (The Guardian)</p>
+          <p>Everyone believes Alex is in a coma, unlikely to ever wake up. As his family debate withdrawing life support, he can only listen. But he soon begins to suspect that his accident wasn't really an accident. Even worse, the perpetrator is still out there and Alex is not the only one in danger.
           </p>
         </div>
-        <div class="col-sm-3">
+        <div class="text-left col-sm-3">
           <h4>Rate this book here!</h4>
-  <fieldset class="rating">
+  <fieldset class="stars rating">
       <input type="radio" id="star5" name="rating" value="5" /><label class = "full" for="star5" title="Awesome - 5 stars"></label>
       <input type="radio" id="star4half" name="rating" value="4 and a half" /><label class="half" for="star4half" title="Pretty good - 4.5 stars"></label>
       <input type="radio" id="star4" name="rating" value="4" /><label class = "full" for="star4" title="Pretty good - 4 stars"></label>
@@ -70,10 +76,25 @@
 
       <div class="row">
         <div class="col-sm-4">
-          <h3>Add book2 picture here</h3>
+          <img class="pic" src="The Killing Habit.jpg" alt="The Killing Habit" title="The Killing Habit">
         </div>
-        <div class="col-sm-8">
+        <div class="col-sm-5">
           <p>Blurb, find me here on amazon, etc</p>
+        </div>
+        <div class="text-left col-sm-3">
+          <h4>Rate this book here!</h4>
+  <fieldset class="stars rating2">
+      <input type="radio" id="star10" name="rating2" value="5" /><label class = "full" for="star10" title="Awesome - 5 stars"></label>
+      <input type="radio" id="star9half" name="rating2" value="4 and a half" /><label class="half" for="star9half" title="Pretty good - 4.5 stars"></label>
+      <input type="radio" id="star9" name="rating2" value="4" /><label class = "full" for="star9" title="Pretty good - 4 stars"></label>
+      <input type="radio" id="star8half" name="rating2" value="3 and a half" /><label class="half" for="star8half" title="Meh - 3.5 stars"></label>
+      <input type="radio" id="star8" name="rating2" value="3" /><label class = "full" for="star8" title="Meh - 3 stars"></label>
+      <input type="radio" id="star7half" name="rating2" value="2 and a half" /><label class="half" for="star7half" title="Kinda bad - 2.5 stars"></label>
+      <input type="radio" id="star7" name="rating2" value="2" /><label class = "full" for="star7" title="Kinda bad - 2 stars"></label>
+      <input type="radio" id="star6half" name="rating2" value="1 and a half" /><label class="half" for="star6half" title="Meh - 1.5 stars"></label>
+      <input type="radio" id="star6" name="rating2" value="1" /><label class = "full" for="star6" title="Sucks big time - 1 star"></label>
+      <input type="radio" id="star5half" name="rating2" value="half" /><label class="half" for="star5half" title="Sucks big time - 0.5 stars"></label>
+  </fieldset>
         </div>
       </div>
 
