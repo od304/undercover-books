@@ -10,7 +10,8 @@ body {
 }
 
 .jumbotron {
-  padding: 1.0rem 0.5rem;
+  padding-top: 2rem;
+  padding-bottom: 0rem;
   text-align: center;
   background-color: rgb(0,0,0);
 }
