@@ -2,7 +2,7 @@ body {
   color: rgb(255,255,255);
   font-family: Times;
   margin: 0px;
-  background-color: rgb(0,0,0);
+  background-color: #000000;
   background-size: cover;
   background-position: center;
   padding-top: 3rem;
@@ -28,6 +28,9 @@ div.end {
   padding: 0rem 0rem;
 
 }
+h1 {
+  padding-top: 2rem;
+}
 ul: hover {
   font-size: 1.2em;
   transition: 0.6s ease
@@ -46,12 +49,14 @@ ol {
 li {
   text-align: center;
 }
+h4 {
+  font-size: auto;
+}
 .pic {
-  height: 100%;
-  min-height: 100px;
-  max-height: 300px;
   width: auto;
-  padding: 1.0rem 0rem;
+  min-height: 50px;
+  max-height: 300px;
+  padding: 2.0rem 0rem;
   padding-top: 0rem;
 }
 .caption {
